@@ -20,7 +20,7 @@ The repository is split in two parts:
 	  
 ## Features
 
-
+_Current bms revision is x.x_
 
 |Parameter|Value|
 | :--- |---:|
@@ -36,3 +36,22 @@ Its main feature is the **full support of the Ninebot/Xiaomi communication proto
 It has a very small formfactor, and can deliver up to 60A peak current.
 It's highly configurable, and can be configured according to the specific user scenario.
 It is also possible to use it in stand-alone mode should you decide to ditch the ninebot ecosystem. 
+
+## Where to buy
+
+If you live in the eastern hemisphere, reach out directly to [Surge](@SurgeSPB). 
+If you live in Europe, reach out to [AK](https://t.me/aka13).
+
+Please understand, that with current logistical limitations availability is limited and stock goes very quickly. 
+
+## Issues and questions
+
+If you think something is missing/should be fixed in the documentation, or have suggestions, open an issue on github.
+
+If you understand russian, want to discuss stuff, or get tips on the installation, you can join the [official group](https://t.me/ninebotfun). 
+If you speak german or english, you can join the european group (coming soon).
+
+## Disclaimer
+Please remember, li-ion battaries are no joke. You should have an understanding on what you are doing, and why you are doing it. No BMS in the world is going to save you, if you don't know what you are doing.
+
+Ride safe and obey local laws.
