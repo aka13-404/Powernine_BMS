@@ -1,10 +1,11 @@
-# WP_BMS
+# Powernine BMS
 **placeholder picture**
 ![Overview_Photo.jpg](img/Overview_Photo.png)
 
 
-This repository is dedicated to the documentation of the **%unnamed-bms%** project by SurgeSPB. 
-
+This repository is dedicated to the documentation of the Powernine BMS project by SurgeSPB. 
+ 
+ 
 The repository is split in two parts:
 1. **[Hardware](Hardware)**
 	The BMS is now out for a quite a long time, so multiple revisions exist. In this folder there are informations on individual parameters and differences of the different revisions and their parameters.
@@ -16,11 +17,11 @@ The repository is split in two parts:
 	  + The configuration tool used for the BMS, PowerNine
 	  + Documentation on options available in Powernine, and how to use them
 	  + Available firmwares to be used for different BMS revisions
-	  
+ 
 	  
 ## Features
 
-_Current bms revision is x.x_
+_Current bms revision is **C**_.
 
 |Parameter|Value|
 | :--- |---:|
