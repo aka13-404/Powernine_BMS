@@ -14,7 +14,7 @@ The main scrollable window contains following fields:
 |Serial number|The serial number of your ESC|
 |Factory capacity|Configured battery capacity|
 |Remaining capacity|Calculated remaining capacity of the battery. Remaining charge is multiplied by the configuted factory capacity.
-|Accumulated charge| How much energy was pumped into the battery on the last cycle. This is calculated properly based on a colomb meter and numerical integration of the current measurement. |
+|Accumulated charge| How much energy was pumped into the battery since the last cycle. This is calculated properly based on a coloumb counter and numerical integration of the current measurement. |
 |Remaining charge| Remaining capacity in %, calculated from the set cell discharge curve and current pack voltage. The average voltage per cell is used for the calculation.|
 |Charge count|Increments each time you charge the battery. Counts the number of times when voltage was detected on the charging port.|
 |Charge cycles| Increments each time the accumulated charge is > factory capacity, so you can estimate the number of full cycles based on battery capacity.|
@@ -45,7 +45,7 @@ An estimation of the voltage at the charging port. Useful for debugging issues w
 The temperature of the main BMS chip, which is responsible for the heavy lifting when balancing. You may want to reduce the number of balanced cells if this gets too hot for your liking. 
 
 ####  2.1.5 Braking voltage
-Ninebot escs can  disable the electronic brake, when issued a specific command, to not overload the battery. You can set a voltage (based on individual sections) over which no regenerative breaking is performed to extend the life if your battery.
+Ninebot escs can  disable the electronic brake, when issued a specific command, to not overload the battery. You can set a voltage (based on individual sections) over which no regenerative breaking is performed to extend the life of your battery.
 
 &nbsp;
 ### 2.2 "Voltages" section
