@@ -1,6 +1,5 @@
 # Powernine BMS
-**placeholder picture**
-![Overview_Photo.jpg](img/Overview_Photo.png)
+![Overview_Photo.jpg](/img/Overview_Photo.png)
 
 
 This repository is dedicated to the documentation of the Powernine BMS project by SurgeSPB. 
@@ -40,10 +39,15 @@ It is also possible to use it in stand-alone mode should you decide to ditch the
 
 ## Where to buy
 
-If you live in the eastern hemisphere, reach out directly to [Surge](@SurgeSPB). 
+If you live in the eastern hemisphere, reach out directly to [Surge](https://t.me/SurgeSPB). 
 If you live in Europe, reach out to [AK](https://t.me/aka13).
 
 Please understand, that with current logistical limitations availability is limited and stock goes very quickly. 
+
+## Quick Setup
+
+There is a short manual on how to connect and setup the BMS, if you don't want to read the full documentation [here](/Software/quick_setup).
+
 
 ## Issues and questions
 
