@@ -1,6 +1,6 @@
 # Quick setup 
 
-1. Connect your BMS to your battery according to your revisions manual [here](/Hardware/). The revision is noted on the lower right corner of the PCB. Current revision number is [C](/Hardware/16s_RevC.md).
+1. Connect your BMS to your battery according to your revisions manual [here](/Hardware/). The revision is noted on the lower right corner of the PCB. Current revision number is [D](/Hardware/16s_RevD.md).
 2. Update your firmware. Use xiaoflasher to flash the latest BMS firmware. Firmware can be found in the [software](/Software/) folder.
    1. Open xiaoflash, connect to your scooter
    2. Select the .zip and press flash. Ignore the warnings, that this firmware is for another scooter
