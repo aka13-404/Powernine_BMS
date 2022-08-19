@@ -1,7 +1,7 @@
-# 16S BMS Revision C
+# 16S BMS Revision D
 
 
-![16s_RevC.png](/img/Hardware/16s_RevC_schematic.png)
+![16s_RevD.png](/img/Hardware/16s_RevD_schematic.png)
 
 **Latest firmware is 711.**
 Firmware flashing is done via XIAOFLASHER.
