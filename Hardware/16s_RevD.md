@@ -7,12 +7,16 @@
 Firmware flashing is done via XIAOFLASHER.
 
 ## Connections 
-1. Balancer connector
-2. Battery connection
-3. Load connection (to the ESC)
-4. To charger
-5. Data connection to the ESC
-6. Thermistors 
+1. Power section (XT60 or XT30 goes here)
+2. Power positive / power negative (towards the ESC)
+3. Charging wires
+4. Balancing connector
+5. Thermistors
+6. Data connection to the ESC
+7. Battery positive / battery negative (towards battery)
+8. Battery section
+9. LED status indicator
+10. Revision marker 
 
 The BMS comes **fully pre-wired** with stock ninebot DC charger connector. The **stock connector to the charger port MELTS when charging over 4A**. If you plan charging with higher currents, change the connector.
 
@@ -33,12 +37,12 @@ This revision has the following parameters:
 ## Connecting
 
 1. Attach bms with holder securely to the battery. Make sure that no part of the BMS touches metal.
-2. Attach power ground (thick black wire under B section). 
+2. Attach battery ground (thick black wire under B section). 
 3. Attach balancing wires in correct order. 
-Balancing wires now start from B1.After you have connected the B4 cable, the bms will be on and in the configuration mode, indicated by blinking of the red and green LEDs in sequence. Ignore the LEDs until the B4 is connected.
-If connecting less than 16 sections, you start with power ground, and connect the sections until the the second to last one. The unused wire are connected together on the BMS, and the last section is connected to power positive.
+Balancing wires start from B1. After you have connected the B4 cable, the bms will be on and in the configuration mode, indicated by blinking of the red and green LEDs in sequence. Ignore the LEDs until the B4 is connected.
+If connecting less than 16 sections, you start with battery ground, and connect the sections until the the second to last one. The unused wire are connected together on the BMS, and the last section is connected to battery positive.
 **Consult the diagram for you convenience**
-4. Attach power positive (thick red wire under B section). The BMS will automatically exit the setup mode and start blinking with the green LED. If it is not blinking, then you made a mistake while connecting the cables, and the sections were not recognized. You need to repeat the connection process.
+4. Attach battery positive (thick red wire under B section). The BMS will automatically exit the setup mode and start blinking with the green LED. If it is not blinking, then you made a mistake while connecting the cables, and the sections were not recognized. You need to repeat the connection process.
 
 ![16s_RevD_balancer.png](/img/Hardware/16s_RevD_balancer.png)
 
