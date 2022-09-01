@@ -1,5 +1,5 @@
 # Powernine BMS
-![Overview_Photo.jpg](/img/Overview_Photo.png)
+![Overview_Photo.jpg](/img/Overview_Photo_D.png)
 
 
 This repository is dedicated to the documentation of the Powernine BMS project by SurgeSPB. 
@@ -20,14 +20,14 @@ The repository is split in two parts:
 	  
 ## Features
 
-_Current bms revision is **C**_.
+_Current bms revision is **D**_.
 
 |Parameter|Value|
 | :--- |---:|
 |Physical dimensions|65x35 mm|
 |Peak discharge current|60 A|
 |Max charge current|6 A|
-|Cell balance current| 55 mA|
+|Cell balance current| 35 mA|
 |Sections balanced at the same time | max 3|
 |Balancing algorithm type|passive, 24/7 if no load is detected
 
