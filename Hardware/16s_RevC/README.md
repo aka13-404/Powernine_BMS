@@ -1,24 +1,21 @@
-# 16S BMS Revision D
+# 16S BMS Revision C
 
 
-![16s_RevD.png](/img/Hardware/16s_RevD_schematic.png)
+![16s_RevC.png](/img/Hardware/16s_RevC_schematic.png)
 
 **Latest firmware is 711.**
-Firmware flashing is done via XIAOFLASHER.
+Download it from the filelist above.
+Firmware flashing is done with XIAOFLASHER.
 
 ## Connections 
-1. Power section (XT60 or XT30 goes here)
-2. Power positive / power negative (towards the ESC)
-3. Charging wires
-4. Balancing connector
-5. Thermistors
-6. Data connection to the ESC
-7. Battery positive / battery negative (towards battery)
-8. Battery section
-9. LED status indicator
-10. Revision marker 
+1. Balancer connector
+2. Battery connection
+3. Load connection (to the ESC)
+4. To charger
+5. Data connection to the ESC
+6. Thermistors 
 
-The BMS comes **fully pre-wired** with stock ninebot DC charger connector. The **stock connector to the charger port MELTS when charging over 4A**. If you plan charging with higher currents, change the connector.
+The BMS comes **pre-wired** for the stock ninebot DC charger connector. The **stock connector to the charger port MELTS when charging over 4,5A**. If you plan charging with higher currents, change the connector.
 
 Please consider the fact, that when running 60A through the BMS, the discharge mosfets dissipate about 4W of heat, which needs to be moved away from the BMS. Attach a heatsink from the bms to the frame to prevent failure through mosfet overheating. 
 
@@ -30,21 +27,20 @@ This revision has the following parameters:
 |Physical dimensions|65x35 mm|
 |Peak discharge current|60 A|
 |Max charge current|6 A|
-|Cell balance current| 35 mA|
+|Cell balance current| 55 mA|
 |Sections balanced at the same time | max 3|
 |Balancing algorithm type|passive, 24/7 if no load is detected
 
 ## Connecting
 
-1. Attach bms with holder securely to the battery. Make sure that no part of the BMS touches metal.
-2. Attach battery ground (thick black wire under B section). 
+1. Attach power and charge wiring of desired length to the BMS. If needed, replace the charging connector.
+2. Place the BMS in a printed holder, or attack it securely to the battery. Make sure that no part of the BMS touches metal. You can use one of the available holders from [here](/stl).
 3. Attach balancing wires in correct order. 
-Balancing wires start from B1. After you have connected the B4 cable, the bms will be on and in the configuration mode, indicated by blinking of the red and green LEDs in sequence. Ignore the LEDs until the B4 is connected.
-If connecting less than 16 sections, you start with battery ground, and connect the sections until the the second to last one. The unused wire are connected together on the BMS, and the last section is connected to battery positive.
-**Consult the diagram for you convenience**
-4. Attach battery positive (thick red wire under B section). The BMS will automatically exit the setup mode and start blinking with the green LED. If it is not blinking, then you made a mistake while connecting the cables, and the sections were not recognized. You need to repeat the connection process.
+**You MUST start with the B0** Or the negative load cable. After you have connected the B4 cable, the bms will be on and in the configuration mode, indicated by blinking of the red and green LEDs in sequence. Ignore the LEDs until the B4 is connected.
+4. After connecting the remaining wires (**B16 or positive load cable MUST be last**) the BMS will automatically exit the setup mode and start blinking with the green LED. If it is not blinking, then you made a mistake while connecting the cables, and the sections were not recognized. You need to repeat the connection process.
+5. If connecting less than 16 sections, you start with the B0, and connect the sections until the the second to last one. The unused wire are connected together on the BMS, and the last section is connected to B16. See the picture below for better understanding.
 
-![16s_RevD_balancer.png](/img/Hardware/16s_RevD_balancer.png)
+![16s_RevC_balancer.png](/img/Hardware/16s_RevC_balancer.png)
 
 ## Troubleshooting
 
